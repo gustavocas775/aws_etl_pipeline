@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 venv
 venv/*
 
@@ -49,3 +50,15 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+=======
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+.venv/
+.env
+>>>>>>> 3d1fce3 (init: estructura base ETL + IaC + CI)
